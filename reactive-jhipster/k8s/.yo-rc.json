@@ -1,0 +1,17 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["blog", "gateway", "store"],
+    "directoryPath": "../",
+    "clusteredDbApps": ["store"],
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "Njg2N2UxNjBkNWM4MzFmZGNmMDIyMmFjN2RkM2JjZWQ2YjhiODZjYzVjMzBjZTUyNTdjZTI4NmJmM2UzZTkzNTUxNTM3MDRlNDA0ZjI4NTc5Yjk5Yjc4OGI4OTMzNWViNGYyYg==",
+    "dockerRepositoryName": "keithchenon",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "gcpdemo",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesUseDynamicStorage": false,
+    "ingressDomain": "",
+    "monitoring": "no",
+    "istio": false
+  }
+}
